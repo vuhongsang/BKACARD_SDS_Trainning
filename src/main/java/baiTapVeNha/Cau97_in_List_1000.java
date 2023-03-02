@@ -26,6 +26,6 @@ public class Cau97_in_List_1000 {
         if( (a==b||b==c||c==a) && (((a*a + b*b) == c*c)||((a*a + c*c) == b*b)||((c*c + b*b) == a*a)) ){
             System.out.printf("đây là tam giác vuông cân");
             System.exit(0);
-        }
+        }////...
     }
 }

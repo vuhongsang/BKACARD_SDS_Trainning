@@ -11,16 +11,17 @@ public class Login_user {
         Scanner in=new Scanner(System.in);
         int input_count=0;
         while (true){
+            input_count++;
             System.out.printf("Hãy nhập username : ");
             user_name=in.nextLine();
             System.out.printf("Hãy nhập passord : ");
             user_pass=in.nextLine();
             if (user_name.equals(admin_name)&&user_pass.equals(admin_pass)){
                 System.out.printf("Đăng nhập thành công !!");
+                break;
             }
             else {
-                System.out.printf("sai thông tin, nhập lại");
-                input_count++;
+                System.out.println("sai thông tin, nhập lại");
             }
             if(input_count==3){
                 System.out.printf("đăng nhập thất bại");

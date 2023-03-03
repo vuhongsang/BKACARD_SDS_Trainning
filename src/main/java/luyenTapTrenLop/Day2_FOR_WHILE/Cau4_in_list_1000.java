@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Cau4_in_list_1000 {
     public static void main(String[] args) {
+        // sn=1/2 + 1/4 + 1 /6 +...1/2n
+        // output sn
+        // input n
         Scanner in = new Scanner(System.in);
         System.out.printf("nhap so thu n = ");
         double n = in.nextLong();

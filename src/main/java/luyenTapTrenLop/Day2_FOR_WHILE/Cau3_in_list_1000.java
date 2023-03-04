@@ -19,7 +19,7 @@ public class Cau3_in_list_1000 {
         /////////------------
         double sum=0;
         for (double i=1;i<=n;i++){
-            sum=sum+(1/i);
+            sum=sum+(1.0/i);
         }
         System.out.printf("tong Sn= %f",sum);
         System.exit(0);

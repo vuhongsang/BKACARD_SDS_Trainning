@@ -21,7 +21,6 @@ public class Cau2_in_list_1000 {
             sum=sum+i*i;
         }
         System.out.printf("tong sn = %d",sum);
-        sum=0;
         System.exit(0);
     }
 }
